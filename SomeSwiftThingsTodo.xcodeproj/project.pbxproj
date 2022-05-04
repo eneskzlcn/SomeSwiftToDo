@@ -14,6 +14,7 @@
 		2628E139281E43DD00F83B8F /* SomeSwiftThingsTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2628E137281E43DD00F83B8F /* SomeSwiftThingsTodo.xcdatamodeld */; };
 		2628E13B281E43E000F83B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2628E13A281E43E000F83B8F /* Assets.xcassets */; };
 		2628E13E281E43E000F83B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2628E13C281E43E000F83B8F /* LaunchScreen.storyboard */; };
+		2628E14A281FD57E00F83B8F /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628E149281FD57E00F83B8F /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2628E13A281E43E000F83B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2628E13D281E43E000F83B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2628E13F281E43E000F83B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2628E149281FD57E00F83B8F /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,49 @@
 		2628E12D281E43DD00F83B8F /* SomeSwiftThingsTodo */ = {
 			isa = PBXGroup;
 			children = (
+				2628E148281FD56C00F83B8F /* Models */,
+				2628E147281E43FA00F83B8F /* Controllers */,
+				2628E146281E43F000F83B8F /* Supportting Items */,
+				2628E145281E43E800F83B8F /* Views */,
+			);
+			path = SomeSwiftThingsTodo;
+			sourceTree = "<group>";
+		};
+		2628E145281E43E800F83B8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2628E134281E43DD00F83B8F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2628E146281E43F000F83B8F /* Supportting Items */ = {
+			isa = PBXGroup;
+			children = (
+				2628E137281E43DD00F83B8F /* SomeSwiftThingsTodo.xcdatamodeld */,
 				2628E12E281E43DD00F83B8F /* AppDelegate.swift */,
 				2628E130281E43DD00F83B8F /* SceneDelegate.swift */,
-				2628E132281E43DD00F83B8F /* ViewController.swift */,
-				2628E134281E43DD00F83B8F /* Main.storyboard */,
 				2628E13A281E43E000F83B8F /* Assets.xcassets */,
 				2628E13C281E43E000F83B8F /* LaunchScreen.storyboard */,
 				2628E13F281E43E000F83B8F /* Info.plist */,
-				2628E137281E43DD00F83B8F /* SomeSwiftThingsTodo.xcdatamodeld */,
 			);
-			path = SomeSwiftThingsTodo;
+			path = "Supportting Items";
+			sourceTree = "<group>";
+		};
+		2628E147281E43FA00F83B8F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2628E132281E43DD00F83B8F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2628E148281FD56C00F83B8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2628E149281FD57E00F83B8F /* TodoModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +179,7 @@
 				2628E139281E43DD00F83B8F /* SomeSwiftThingsTodo.xcdatamodeld in Sources */,
 				2628E133281E43DD00F83B8F /* ViewController.swift in Sources */,
 				2628E12F281E43DD00F83B8F /* AppDelegate.swift in Sources */,
+				2628E14A281FD57E00F83B8F /* TodoModel.swift in Sources */,
 				2628E131281E43DD00F83B8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYJ68DPNAD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SomeSwiftThingsTodo/Info.plist;
+				INFOPLIST_FILE = "SomeSwiftThingsTodo/Supportting Items/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYJ68DPNAD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SomeSwiftThingsTodo/Info.plist;
+				INFOPLIST_FILE = "SomeSwiftThingsTodo/Supportting Items/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
