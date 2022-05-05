@@ -15,6 +15,7 @@
 		2628E13B281E43E000F83B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2628E13A281E43E000F83B8F /* Assets.xcassets */; };
 		2628E13E281E43E000F83B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2628E13C281E43E000F83B8F /* LaunchScreen.storyboard */; };
 		2628E14A281FD57E00F83B8F /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628E149281FD57E00F83B8F /* TodoModel.swift */; };
+		2628E14E2823566C00F83B8F /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628E14D2823566C00F83B8F /* TodoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2628E13D281E43E000F83B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2628E13F281E43E000F83B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2628E149281FD57E00F83B8F /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		2628E14D2823566C00F83B8F /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				2628E134281E43DD00F83B8F /* Main.storyboard */,
+				2628E14D2823566C00F83B8F /* TodoTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				2628E139281E43DD00F83B8F /* SomeSwiftThingsTodo.xcdatamodeld in Sources */,
 				2628E133281E43DD00F83B8F /* ViewController.swift in Sources */,
 				2628E12F281E43DD00F83B8F /* AppDelegate.swift in Sources */,
+				2628E14E2823566C00F83B8F /* TodoTableViewCell.swift in Sources */,
 				2628E14A281FD57E00F83B8F /* TodoModel.swift in Sources */,
 				2628E131281E43DD00F83B8F /* SceneDelegate.swift in Sources */,
 			);
