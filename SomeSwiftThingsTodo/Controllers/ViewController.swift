@@ -67,6 +67,13 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             if let taskInput = (alertController.textFields?.first?.text), taskInput != "" {
                 self.addTodo(task: taskInput)
                 self.tableView.reloadData()
+            }else {
+                let warningAlertController = UIAlertController(title: "Warning", message: "You can not leave the task field empty.", preferredStyle: .alert)
+                let closeAction = UIAlertAction(title: "Ok", style: .default) { _ in
+                    warningAlertController.dismiss(animated: true)
+                }
+                warningAlertController.addAction(closeAction)
+                self.present(warningAlertController, animated: true)
             }
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { _ in
