@@ -83,10 +83,20 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="TODO" id="Yac-PL-SlH">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zhA-k5-Y2j"/>
+                        <barButtonItem key="leftBarButtonItem" enabled="NO" systemItem="done" id="pXa-oX-wjq">
+                            <connections>
+                                <action selector="didDoneButtonTapped:" destination="BYZ-38-t0r" id="3uN-pN-tQu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zhA-k5-Y2j">
+                            <connections>
+                                <action selector="didAddBarButtonItemTapped:" destination="BYZ-38-t0r" id="0Rd-sq-GzA"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="doneBarButtonItem" destination="pXa-oX-wjq" id="79i-in-iHh"/>
                         <outlet property="tableView" destination="bNC-1y-dOc" id="D7H-oT-ySm"/>
                     </connections>
                 </viewController>
